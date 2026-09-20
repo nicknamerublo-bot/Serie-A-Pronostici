@@ -13,12 +13,14 @@ st.markdown("Applicazione statistica per elaborare i migliori pronostici basati 
 data = {
     'Squadra': [
         'Inter', 'Milan', 'Juventus', 'Atalanta', 'Roma', 
-        'Lazio', 'Napoli', 'Fiorentina', 'Bologna', 'Torino'
+        'Lazio', 'Napoli', 'Fiorentina', 'Bologna', 'Torino',
+        'Monza', 'Udinese', 'Genoa', 'Lecce', 'Verona',
+        'Cagliari', 'Empoli', 'Parma', 'Como', 'Venezia'
     ],
-    'GF_Casa': [2.1, 1.9, 1.8, 2.2, 1.6, 1.5, 1.7, 1.4, 1.3, 1.1],
-    'GS_Casa': [0.7, 0.9, 0.6, 1.1, 1.0, 1.1, 0.8, 1.0, 0.9, 1.0],
-    'GF_Trasferta': [1.8, 1.6, 1.4, 1.7, 1.3, 1.2, 1.4, 1.1, 1.0, 0.9],
-    'GS_Trasferta': [0.8, 1.1, 0.7, 1.3, 1.2, 1.3, 0.9, 1.2, 1.1, 1.2]
+    'GF_Casa': [2.1, 1.9, 1.8, 2.2, 1.6, 1.5, 1.7, 1.4, 1.3, 1.1, 1.0, 1.2, 1.1, 0.9, 1.0, 1.1, 0.9, 1.0, 0.9, 0.8],
+    'GS_Casa': [0.7, 0.9, 0.6, 1.1, 1.0, 1.1, 0.8, 1.0, 0.9, 1.0, 1.2, 1.3, 1.1, 1.2, 1.3, 1.2, 1.2, 1.4, 1.3, 1.4],
+    'GF_Trasferta': [1.8, 1.6, 1.4, 1.7, 1.3, 1.2, 1.4, 1.1, 1.0, 0.9, 0.8, 0.9, 0.9, 0.7, 0.8, 0.8, 0.7, 0.8, 0.8, 0.6],
+    'GS_Trasferta': [0.8, 1.1, 0.7, 1.3, 1.2, 1.3, 0.9, 1.2, 1.1, 1.2, 1.4, 1.5, 1.3, 1.4, 1.5, 1.4, 1.3, 1.6, 1.5, 1.6]
 }
 
 df = pd.DataFrame(data)
