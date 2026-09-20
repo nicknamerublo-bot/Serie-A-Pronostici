@@ -3,3 +3,8 @@ pandas
 numpy
 scipy
 
+streamlit
+pandas
+numpy
+scipy
+requests
