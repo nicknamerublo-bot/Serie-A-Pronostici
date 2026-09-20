@@ -137,4 +137,4 @@ if st.button("Calcola Pronostico"):
 st.markdown("---")
 st.write("### Tabella Dati Squadre")
 st.dataframe(df)
-
+7
